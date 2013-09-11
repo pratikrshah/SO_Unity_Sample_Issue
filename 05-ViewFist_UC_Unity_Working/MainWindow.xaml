@@ -1,0 +1,12 @@
+﻿<Window x:Class="_05_ViewFist_UC_Unity_Working.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:uc1="clr-namespace:_05_ViewFist_UC_Unity_Working"
+         xmlns:uc2="clr-namespace:_05_ViewFist_UC_Unity_Working"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Vertical">
+        <TextBlock Text="{Binding NNN}" />
+        <uc1:UC1 DataContext="{Binding UC1VM}" />
+        <uc2:UC2 DataContext="{Binding UC2VM}" />
+    </StackPanel>
+</Window>
